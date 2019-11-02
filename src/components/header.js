@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Toggle from "../components/toggle"
 import siteLogo from "../assets/img/logo-supersimple-vertical.svg"
 import "../assets/scss/styles.scss"
-import "../assets/js/navbar.js"
 
 const Header = ({ siteTitle }) => (
   <header class="site-header">
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
           <li><Link to="/services">Nos services</Link></li>
           <li><Link to="/contact">Nous contacter</Link></li>
         </ul>
-        <button aria-label="Menu" aria-controls="main-menu" aria-pressed="false">Menu</button>
+        <Toggle />
       </nav>
     </div>
   </header>
