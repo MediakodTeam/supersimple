@@ -29,6 +29,9 @@ const Layout = ({ children }) => {
       <div class="container">
         {children}
       </div>
+      <footer>
+        <p>supersimple - un produit développé par <a href="https://mediakod.com">Mediakod</a></p>
+      </footer>
       <img id="background-s" src={siteS} alt="" />
     </>
   )
