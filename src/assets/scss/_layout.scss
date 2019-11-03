@@ -53,10 +53,15 @@ footer{
 #background-s{
     position: fixed;
     top: 0;
-    right: 0;
-    width: 90vw;
+    right: -20vw;
+    width: 200vw;
     height: auto;
     z-index: -1;
+
+    @media(min-width: 48rem){
+        right: 0;
+        width: 90vw;
+    }
 }
 
 /** classes **/

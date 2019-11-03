@@ -22,6 +22,7 @@
         &:not(#brand){
             visibility: hidden;
             display: none;
+            background-color: white;
 
             & > a {
                 padding: .7rem 2rem;
@@ -49,12 +50,15 @@
   
     button {
         position: absolute;
-        top: .7rem;
+        top: .2rem;
         right: 1rem;
         padding: .7rem 2rem;
         border: none;
-        background: transparent;
+        background: $c-font-base;
+        font-weight: 700;
+        color: white;
         font-size: 1rem;
+        border-radius: 4px;
         cursor: pointer;
     }
     
@@ -66,6 +70,7 @@
         li:not(#brand){
             visibility: visible;
             display: inline-block;
+            background-color: transparent;
         }
       
         button {
