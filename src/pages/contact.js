@@ -16,7 +16,7 @@ const ContactPage = () => (
     <section>
       <div class="inner">
         <h2>Comment nous contacter ?</h2>
-        <p>Nous sommes joignables par e-mail à l'adresse <a href="mailto:contact@supersimple.be"><strong>contact@supersimple.be</strong></a>.</p>
+        <p>Nous sommes joignables par e-mail à l'adresse <a href="mailto:contact@supersimple.pro"><strong>contact@supersimple.pro</strong></a>.</p>
         <p>Comme nous sommes le plus souvent en déplacement pour des ateliers et des formations, nous ne fournissons pas de numéro de téléphone. Vous aurez toutefois une personne de contact dédiée dès le début de votre accompagnement.</p>
       </div>
     </section>
