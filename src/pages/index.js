@@ -15,7 +15,8 @@ const IndexPage = () => (
     </main>
     <section id="#demarche">
       <h2>Notre démarche</h2>
-      <p>Nous sommes conscient qu'il n'est pas toujours aisé d'appréhender ces thématiques et que les mettre en place peut être un véritable défi technique et financier. Pour ces raisons, nous favorisons un accompagnement adapté et une progression étape par étape. <Link to="/contact/">Contactez-nous pour de plus amples informations</Link></p> 
+      <p>Nous sommes conscient qu'il n'est pas toujours aisé d'appréhender ces thématiques et que les mettre en place peut être un véritable défi technique et financier. Pour ces raisons, nous favorisons un accompagnement adapté et une progression étape par étape.</p> 
+      <p><Link to="/contact/">Contactez-nous pour de plus amples informations</Link></p>
     </section>
   </Layout>
 )
