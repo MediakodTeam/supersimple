@@ -20,9 +20,9 @@ const IndexPage = () => (
         <p><Link to="/contact/">Contactez-nous pour de plus amples informations</Link></p>
       </div>
     </section>
-    <section id="#demarche">
+    <section id="#clients">
       <div class="inner">
-        <h2>Notre expériencce</h2>
+        <h2>Notre expérience</h2>
         <p>Supersimple est un constat que nous avons eu suite à nos dix années en tant qu'agence de développement web. Nous travaillons sur ce concept depuis maintenant quatre ans et avons déjà accompagné différentes équipes :</p> 
         <ul class="client-list">
             <li>AG Insurance</li>
