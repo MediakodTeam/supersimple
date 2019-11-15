@@ -20,10 +20,23 @@ const IndexPage = () => (
         <p><Link to="/contact/">Contactez-nous pour de plus amples informations</Link></p>
       </div>
     </section>
+    <section id="#pour-qui">
+      <div class="inner">
+        <h2>À qui s'adresse nos services ?</h2>
+        <p>Nos ateliers et formations s'adressent plus spécifiquement à des chefs de projets, des rédacteurs web, des responsables techniques, des designer et des développeurs. Nous accompagnons aussi des équipes marketing et des chargés de communication afin de prendre conscience des valeurs et de leurs contraintes spécifiques.</p>
+      </div>
+    </section>
     <section id="#clients">
       <div class="inner">
         <h2>Notre expérience</h2>
-        <p>Supersimple est un constat que nous avons eu suite à nos dix années en tant qu'agence de développement web. Nous travaillons sur ce concept depuis maintenant quatre ans et avons déjà accompagné différentes équipes :</p> 
+        <p>Supersimple est un constat que nous avons eu suite à nos dix années en tant qu'agence de développement web. Depuis début 2014, nous nous formons et avons déjà accompagné différentes équipes pour améliorer l'expérience de leurs audiences.</p>
+      </div>
+    </section>
+    <section id="#benefices">
+      <div class="inner">
+        <h2>Nos avantages</h2>
+        <p>Les bénéfices de notre approche sont multiples: adhésion de nouvelles valeurs pour votre marque, épanouissement personnel de vos collègues par la formation de bonnes pratiques, optimisation de l'expérience de vos audiences.</p> 
+        <h3>Quelques marques que nous avons accompagnées</h3>
         <ul class="client-list">
             <li>AG Insurance</li>
             <li>Agence du Numérique (ex-AWT)</li>

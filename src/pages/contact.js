@@ -24,7 +24,8 @@ const ContactPage = () => (
       <Image />
       <div class="inner">
         <h2>Une équipe à votre écoute</h2>
-        <p>Notre équipe est à votre disposition pour tout nouveau projet mais aussi pour des audits de solutions existantes. Nous pouvons, selon vos besoins et vos contraintes, vous proposer des ateliers ou un accompagnement pas à pas afin d'assimiler l'information à votre rythme.</p>
+        <p>Notre équipe est à votre disposition pour tout nouveau projet mais aussi pour des audits de solutions existantes. Nous pouvons, selon vos besoins et vos contraintes, vous proposer des ateliers ou un accompagnement étape par étape afin d'assimiler l'information à votre rythme et dans des budgets maitrisés.</p>
+        <p>Nous serions ravi d'échanger avec vous sur vos projets futurs et solutions actuelles. Cela ne vous engage à rien et vous sensibiliser à ces bonnes pratiques sera déjà un grand pas pour nous.</p>
       </div>
     </section>
   </Layout>
