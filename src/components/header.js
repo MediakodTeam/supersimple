@@ -16,9 +16,9 @@ function Header({ siteTitle }) {
   }
 
   return (
-    <header class="site-header">
-      <div class="container">
-        <nav id="main-menu" class={`navbar ${navbarState ? 'navbar--active' : ''}`}>
+    <header className="site-header">
+      <div className="container">
+        <nav id="main-menu" className={`navbar ${navbarState ? 'navbar--active' : ''}`}>
           <ul>
             <li id="brand"><Link to="/"><img src={siteLogo} alt={siteTitle} /></Link></li>
             <li><Link to="/services">Nos services</Link></li>
