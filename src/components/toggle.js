@@ -11,7 +11,7 @@ function Toggle({ onToggleUpdate }) {
 
         // On passe l'état dans une fonction
         // pour le passer au parent
-        setTimeout(() => onToggleUpdate(!oldState), 100);
+        onToggleUpdate(!oldState)
     }
 
     return (
