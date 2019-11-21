@@ -1,30 +1,29 @@
-import React from "react"
+import React, { useState } from "react"
 
-class Toggle extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-        this.handleClick = this.handleClick.bind(this);
+function Toggle({ onToggleUpdate }) {
+    const [ariaPressed, setAriaPressed] = useState(false);
+
+    const handleClick = () => {
+        let oldState = ariaPressed
+
+        // On mets à jour l'état
+        setAriaPressed(!oldState)
+
+        // On passe l'état dans une fonction
+        // pour le passer au parent
+        setTimeout(() => onToggleUpdate(!oldState), 100);
     }
-    componentDidMount() {
-        document.addEventListener('click', this.handleClick)
-    }
-    componentWillUnmount() {
-        document.removeEventListener('click', this.handleClick)
-    }
-    handleClick(event) {  
-        let pressed = event.target.getAttribute('aria-pressed') === 'true'
-        event.target.setAttribute('aria-pressed', String(!pressed))
-        event.preventDefault()
-        let navbars = document.querySelectorAll('.navbar')
-        navbars.forEach(function(el) {
-            el.classList.toggle('navbar--active')
-        })
-        return;
-    }
-    render() {
-        return <button aria-label="Menu" aria-controls="main-menu" aria-pressed="false">Menu</button>
-    }
+
+    return (
+        <button
+            aria-label="Menu"
+            aria-controls="main-menu"
+            aria-pressed={ariaPressed}
+            onClick={ () => handleClick() }
+        >
+            Menu
+        </button>
+    )
 }
 
 export default Toggle
