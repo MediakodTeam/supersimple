@@ -34,7 +34,7 @@ body{
 main{
     font-size: 1.2em;
     padding-top: var(--gap);
-    padding-bottom: calc(var(--gap) * 2);
+    padding-bottom: var(--gap);
     min-height: calc(80vh - ((var(--gap) * 2) + 80px));
 }
 
