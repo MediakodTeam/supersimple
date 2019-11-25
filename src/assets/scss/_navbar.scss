@@ -1,8 +1,5 @@
 .navbar {
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
     #brand img{
         width: 102px;
@@ -10,71 +7,55 @@
   
     ul {
       width: 100%;
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: flex-end;
       list-style: none;
       margin: 0;
       padding: 0;
-    }
-      
-    li {
-        &:not(.base-li){
-            position: absolute;
-            top: 0;
-            left: -15000px;
-            background-color: white;
 
-            & > a {
-                padding: .7rem 2rem;
-            }
-        }
-      
-        height: 100%;
-        margin-right: 7px;
+      &:before,
+      &:after{
+          clear: both;
+          content: "";
+          display: table;
+      }
     }
-    
-    &.navbar--active{
-        li:not(.base-li){
-            position: static;
-            a{
-                display: block;
-            }
+      
+    li:not(#brand) {
+        & > a {
+            font-weight: bold;
+            padding: .4rem 2rem;
         }
+
+        float: right;
+        text-align: right;
+        height: 100%;
+        margin-right: 0;
+        width: calc(100% - 102px);
     }
     
     #brand{
+        float: left;
         margin-right: auto;
         font-weight: 700;
     }
-  
-    #toggle button {
-        position: absolute;
-        top: .2rem;
-        right: 1rem;
-        padding: .7rem 2rem;
-        border: none;
-        background: $c-font-base;
-        font-weight: 700;
-        color: white;
-        font-size: 1rem;
-        border-radius: 4px;
-        cursor: pointer;
-    }
     
-    @media(min-width: 43.25rem){
+    @media(min-width: 46rem){
         ul{
+            display: flex;
             flex-flow: row nowrap;
         }
-      
-        li:not(.base-li){
-            position: static;
-            background-color: transparent;
+
+        li:not(#brand) > a{
+            font-weight: normal;
+            padding: .7rem 2rem;
+        }
+
+        .home-link{
+            display: none;
         }
       
-        #toggle {
-            visibility: hidden;
-            display: none;
+        li:not(#brand){
+            width: auto;
+            margin-right: 7px;
         }
     }
 }
