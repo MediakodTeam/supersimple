@@ -6,6 +6,12 @@ module.exports = {
     author: `@mediakod`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-html-attributes`,
+      options: {
+          lang: 'fr'
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
