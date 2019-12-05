@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Supersimple, accueil" />
+    <SEO title="Supersimple" lang="fr" />
     <main id="main" className="flex-centered">
       <div className="main-content">
         <h1>Supersimple, agence de sensibilisation et formation à l'accessibilité, l'ergonomie, les performances, l'éco-conception et l'éthique.</h1>

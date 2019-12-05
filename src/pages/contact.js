@@ -6,7 +6,7 @@ import Image from "../components/image"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Supersimple, nous contacter" />
+    <SEO title="Supersimple, nous contacter" lang="fr" />
     <main id="main" className="flex-centered">
       <div className="main-content">
         <h1>Nous contacter</h1>

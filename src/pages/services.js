@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const ServicesPage = () => (
   <Layout>
-    <SEO title="Supersimple, nos services" />
+    <SEO title="Supersimple, nos services" lang="fr" />
     <main id="main" className="flex-centered content-inline">
       <div className="main-content">
         <h1>Nos services</h1>
